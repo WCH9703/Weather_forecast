@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+}
+html,body{
+    background: #5b7191;
+    width: 100%;
+
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+#head{
+    max-width:100%;
+    background: #d8c6bc;
+}
+.search{
+    width:30%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+.search input[type="text"]{
+    border-radius: 20px;
+    border: solid #d8c6bc;
+    color: #5b7191;
+    padding: 1%;
+}
+#btn img{
+    width:5%;
+}
+.time{
+    width:10%;
+    float: right;
+    font-size: 30px;
+    text-align: center;
+    color:#5b7191;
+}
+.clear{
+    clear: both;
+}
+
+#btn{
+    cursor: pointer;
+}
+#main{
+    max-width: 100%;
+}
+.left{
+    float: left;
+    width:55%;
+    background: #5b7191;
+    color: #d8d5cc;
+}
+.left img{
+   margin-left: 40%; 
+   width:auto;
+   max-width: 20%;
+}
+#dressing_index{
+    position: relative;
+    font-size: 30px;
+    left:3%;
+}
+#temp{
+    position: relative;
+    left:35%;
+    font-size: 55px;
+}
+#weather_now,
+#weather,
+#city,
+.something{
+    text-align: center;
+}
+#dress{
+    position: relative;
+    left: 20%;
+    width:60%;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.right{
+    background:#5b7191;
+
+}
+.container{
+    background: #5b7191;
+    font-size:18px;
+    color: #d8d5cc;
+    height: 100%;
+}
+@media screen and (max-width: 1519px) {
+    #head,
+    #main{
+        width:100%;
+    }
+  }
+/*IPhone*/  
+  @media screen and (max-width:1024px){
+      .left,
+      .right{
+          display: block;
+          width:100%;
+          height: auto;
+      }
+      .search{
+          width:100%;
+          margin: 0 auto;
+      }
+      
+      .time{
+          display: none;
+      }
+      ul li{
+          font-size: 14px;
+      }
+  }

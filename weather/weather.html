@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天气</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/weather.js"></script>
+    <link href="css/weather.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+   <header id="head">
+       <div class="search">
+       <input type="text" id="inp" placeholder="请输入城市" >
+       <span id="btn"><img src="images/search.png"></span>
+       </div>
+       <div class="time">test</div>
+       <br class="clear">
+   </header>
+   <section id="main">
+    <div class="left">
+
+        <p id="dressing_index"></p>
+       <p id="temp"></p>
+       <p id="weather" style="font-size: 25px;"></p>
+       <img id="img" src="images/icon.png">
+       <p id="city"></p>
+       <div class="something">
+       <span id="wind"></span>
+       <span id="wind_str"></span>
+       <span id="uv"></span><br>
+       <span id="exercise_index"></span>
+       <span id="travel_index"></span>
+       <span id="wash_index"></span>
+       </div>
+       <p id="dress"></p>
+       <br>
+        
+    </div>
+    <div class="right">
+    <div class="container">
+        <br><br><br>
+      <ul></ul>
+    </div>
+    </div>     
+   </section>
+</body>
+</html>
